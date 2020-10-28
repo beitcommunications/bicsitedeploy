@@ -1,0 +1,111 @@
+.about-section {
+  background: #f5f7f6;
+  /* height: 70rem; */
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.hey-contact-section {
+  background: #f5f7f6;
+
+  padding: 0rem 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.about-section-card,
+.hey-contact-section-card {
+  max-width: 940px;
+  width: 98%;
+  height: 96%;
+  margin: 0 auto;
+  background-color: #fff;
+
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 0.4rem;
+  position: relative;
+  padding: 3rem 2.8rem;
+}
+
+.hey-contact-section-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-section-card h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #66cc90;
+}
+
+.hey-contact-section-card h2 {
+  align-self: flex-start;
+  font-size: 3rem;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #66cc90;
+}
+
+.about-section-card h4 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 3.3rem;
+  padding: 2.2rem 0;
+}
+
+.hey-contact-section-card h4 {
+  align-self: flex-start;
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 3.3rem;
+  padding: 2.2rem 0;
+}
+
+.about-section-card h4.one::before {
+  content: "1.";
+}
+
+.about-section-card h4.two::before {
+  content: "2.";
+}
+
+.hey-contact-section-card h4.star::before {
+  content: " #";
+  font-size: 2rem;
+}
+.about-section-card h4.one::before,
+.about-section-card h4.two::before,
+.hey-contact-section-card h4.star::before {
+  height: 35px;
+  width: 35px;
+  border-radius: 0.4rem;
+  background-color: #66cc90;
+  display: inline-block;
+  position: absolute;
+  left: -1.75rem;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12);
+}
+
+.about-section-card h3 {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.hey-contact-section-card .emailnow svg {
+  width: 5.5rem;
+}
+
+.hey-contact-section-card .emailnow svg:hover {
+  transition: width 150ms ease;
+  width: 6rem;
+}

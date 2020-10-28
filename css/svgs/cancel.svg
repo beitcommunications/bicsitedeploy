@@ -1,0 +1,14 @@
+<svg version="1.1" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+ <title>cancel</title>
+ <desc>Created with Sketch.</desc>
+ <g id="Icons" fill="none" fill-rule="evenodd">
+  <g id="Rounded" transform="translate(-204 -3434)">
+   <g id="Navigation" transform="translate(100 3378)">
+    <g id="-Round-/-Navigation-/-cancel" transform="translate(102 54)">
+     <polygon id="Path" points="0 0 24 0 24 24 0 24" opacity=".87"/>
+     <path id="🔹-Icon-Color" d="m12 2c-5.53 0-10 4.47-10 10s4.47 10 10 10 10-4.47 10-10-4.47-10-10-10zm4.3 14.3c-0.39 0.39-1.02 0.39-1.41 0l-2.89-2.89-2.89 2.89c-0.39 0.39-1.02 0.39-1.41 0s-0.39-1.02 0-1.41l2.89-2.89-2.89-2.89c-0.39-0.39-0.39-1.02 0-1.41s1.02-0.39 1.41 0l2.89 2.89 2.89-2.89c0.39-0.39 1.02-0.39 1.41 0s0.39 1.02 0 1.41l-2.89 2.89 2.89 2.89c0.38 0.38 0.38 1.02 0 1.41z" fill="#1D1D1D"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

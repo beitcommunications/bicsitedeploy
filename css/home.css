@@ -1,0 +1,828 @@
+@font-face {
+  font-family: "Be Vietnam";
+  src: url("/font/BeVietnam-Regular.woff2") format("woff2"),
+    url("/font/BeVietnam-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam";
+  src: url("/font/BeVietnam-SemiBold.woff2") format("woff2"),
+    url("/font/BeVietnam-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam";
+  src: url("/font/BeVietnam-SemiBoldItalic.woff2") format("woff2"),
+    url("/font/BeVietnam-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam";
+  src: url("/font/BeVietnam-ThinItalic.woff2") format("woff2"),
+    url("/font/BeVietnam-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam";
+  src: url("/font/BeVietnam-Bold.woff2") format("woff2"),
+    url("/font/BeVietnam-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam";
+  src: url("/font/BeVietnam-ExtraBold.woff2") format("woff2"),
+    url("/font/BeVietnam-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam";
+  src: url("/font/BeVietnam-ExtraBoldItalic.woff2") format("woff2"),
+    url("/font/BeVietnam-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam";
+  src: url("/font/BeVietnam-Italic.woff2") format("woff2"),
+    url("/font/BeVietnam-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam";
+  src: url("/font/BeVietnam-LightItalic.woff2") format("woff2"),
+    url("/font/BeVietnam-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam";
+  src: url("/font/BeVietnam-Light.woff2") format("woff2"),
+    url("/font/BeVietnam-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam";
+  src: url("/font/BeVietnam-Medium.woff2") format("woff2"),
+    url("/font/BeVietnam-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam";
+  src: url("/font/BeVietnam-MediumItalic.woff2") format("woff2"),
+    url("/font/BeVietnam-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ! @font face ends */
+
+/* ? Global declaration */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 10px;
+  background-color: #e9f7f0;
+  color: #0e1d15;
+  font-family: "Be Vietnam", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.btn {
+  padding: 1rem 2rem 1.2rem;
+  border-radius: 0.4rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ? Global declaration ends*/
+
+.header_container {
+  width: 100%;
+  /* max-width: 940px; */
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+
+  z-index: 1000;
+  background-color: #fff;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.06);
+  height: 6.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand-logo {
+  display: inline-block;
+  width: 3rem;
+}
+
+.menu-icon {
+  width: 2.55rem;
+}
+
+.mobile-nav {
+  /* background-color: #66cc99; */
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  transition: right 200ms ease-in;
+}
+
+.cancel-icon {
+  width: 9rem;
+  align-self: flex-end;
+  padding: 2rem 3rem 1rem;
+  cursor: pointer;
+  
+}
+
+
+.mobile-nav ul {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-nav li {
+  padding: 2rem 0;
+}
+
+.mobile-nav a {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #0e1d15;
+}
+
+.mobile-nav a:hover{
+  color: #48916d;
+} 
+
+.mobile-nav .toolbox {
+  background-color: #66cc99;
+  color: #fff;
+  transition: background-color 250ms ease-in;
+}
+
+.mobile-nav .toolbox:hover{
+  background-color: #48916d;
+  color: #fff;
+}
+
+
+.nav-active {
+  right: 0;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+.main {
+  background: #fff;
+}
+
+.showcase {
+  /* background-color: #cc6699; */
+  height: 48rem;
+  padding: 0 1rem;
+}
+
+.showcase .container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.showcase h2 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #66cc99;
+}
+
+.showcase h1 {
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 2.7rem;
+}
+
+.showcase-btn {
+  width: 20rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  background-color: #66cc99;
+  color: #fff;
+  transition: background-color 250ms ease-in;
+
+}
+
+.showcase-btn:hover {
+  background-color: #48916d;
+}
+.showcase-ask {
+  margin: 2.5rem 0;
+  display: block;
+  text-decoration: underline;
+  text-transform: capitalize;
+  padding: 0 1rem;
+  font-size: 1.4rem;
+  font-weight: 350;
+  color: #0e1d15;
+  opacity: 0.9;
+}
+
+.showcase-ask:hover{
+  color: #3a7457;
+  opacity: 1;
+}
+
+.articles-section {
+  padding: 3rem 0;
+  background-color: #e9f7f0;
+}
+
+.articles-heading h2 {
+  padding: 1rem 2rem 2rem;
+  margin: 1.5rem 0;
+  text-align: center;
+  font-size: 2rem;
+
+  letter-spacing: 0.6rem;
+  font-weight: 400;
+}
+
+.articles-cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
+  grid-gap: 3.5rem;
+}
+
+.article-box-linked {
+  display: block;
+  height: 50rem;
+  background: #fff;
+  /* margin-bottom: 33rem; */
+  border-radius: 0.4rem;
+  border-bottom-right-radius: 7.5rem;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.07);
+  
+
+  z-index: 1;
+  transition: box-shadow 300ms ease-in-out;
+}
+
+.article-box-linked:hover {
+  box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.1);
+ 
+}
+
+.article-box-linked::after {
+  content: url(/social/fa.png);
+
+  background-color: #66cc99;
+  display: block;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  right: 0;
+  bottom: 0rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 
+  background-color 300ms ease-in-out,
+  box-shadow 250ms ease-in-out;
+}
+
+.article-box-linked:hover::after {
+  box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.15);
+  background-color: #48916d;
+}
+
+.article-card-1 img,
+.article-card-2 img,
+.article-card-3 img {
+  border-radius: 0.4rem 0.4rem 0 0;
+  height: 25rem;
+  width: 100%;
+}
+
+.article-box-content {
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 1rem;
+  color: #0e1d15;
+}
+
+.article-box-content h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.article-box-content h5 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.article-box-content .readmore {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #66cc99;
+}
+
+.more-articles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
+  grid-gap: 3.5rem;
+  margin: 4.5rem 0;
+}
+
+.more-articles a {
+  font-size: 2rem;
+  background: #66cc99;
+  border-radius: 0.4rem;
+  text-align: center;
+  padding: 1rem 0 1.5rem;
+  color: #fff;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+  transition: background 300ms ease;
+}
+
+.more-articles a:hover {
+  color: #0e1d15;
+  background: #fff;
+}
+
+.resource {
+  background-color: #fff;
+  height: 48rem;
+  padding: 6rem 0 6rem;
+}
+
+.resource .container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.resource h4 {
+  color: #0e1d15;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 0 0 1rem 0.2rem;
+}
+
+.resource h4::after {
+  content: "";
+  display: inline-block;
+  width: 4rem;
+  height: 0.2rem;
+  background-color: #0e1d15;
+  margin: 0 0.5rem 0.2rem 0.6rem;
+  border-radius: 0.15rem;
+}
+.resource h2 {
+  color: #3381ff;
+  font-size: 3.45rem;
+  font-weight: 600;
+  line-height: 3.5rem;
+}
+
+.resource h5 {
+  font-size: 1.61rem;
+  font-weight: 400;
+  color: #0e1d15;
+  padding: 1.5rem 0;
+  opacity: 0.95;
+  line-height: 2.75rem;
+}
+
+.resource-btn {
+  background-color: #3381ff;
+  width: 20rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  transition: background-color ease 250ms;
+}
+
+.resource-btn:hover{
+  background-color: #0e1d15;
+
+}
+
+.want-problem-solved {
+  height: 50rem;
+  background-color: #66cc99;
+  padding: 2.5rem 0;
+}
+
+.want-problem-solved .container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.want-problem-solved h2 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.want-problem-solved h4 {
+  font-size: 1.55rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  padding: 1rem 0 0 0;
+  color: #fff;
+  text-transform: lowercase;
+  
+}
+
+.want-problem-solved svg {
+  width: 5rem;
+  transition: width 150ms ease;
+}
+
+.want-problem-solved svg:hover{
+  width: 5.5rem;
+}
+
+.want-problem-solved .want-to-know-guide {
+  color: #e9f7f0;
+  opacity: 0.8;
+  font-size: 1.32rem;
+}
+
+.want-problem-solved .want-to-know-guide:hover{
+  color: #3a7457;
+}
+
+.did-circuit-looks-abstract {
+  background-color: #fff;
+  padding: 3rem 2.4rem 4rem;
+  height: 45rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.did-circuit-looks-abstract h2 {
+  color: #0e1d15;
+  font-size: 2.7rem;
+  font-weight: 800;
+}
+
+.did-circuit-looks-abstract h5 {
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding: 1rem 0;
+  color: #0e1d15;
+  opacity: 0.95;
+}
+
+.did-circuit-looks-abstract-btn {
+  background-color: #0e1d15;
+  min-width: 20rem;
+  text-align: center;
+  font-size: 1.55rem;
+  font-weight: 500;
+  color: #fff;
+  border: 1px solid #0e1d15;
+  transition: background-color ease 250ms;
+}
+
+.did-circuit-looks-abstract-btn:hover{
+  background-color: #fff;
+  color: #0e1d15;
+  
+}
+
+footer {
+  background-color: #fff;
+  padding: 1rem 0;
+}
+
+footer img {
+  width: 3rem;
+  display: inline-block;
+  margin: 1.5rem 0.25rem;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.logo-rebrand {
+  width: 24rem;
+}
+
+.logo-rebrand svg {
+  width: 100%;
+}
+
+.footer-links {
+  padding: 2rem 0 0 0.4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  grid-gap: 4rem;
+  text-transform: capitalize;
+}
+
+.footer-links h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 0.4rem 0;
+}
+
+.footer-links li {
+  padding: 0.3rem 0;
+}
+.footer-links a {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #0e1d15;
+  padding-left: 0.1rem;
+}
+
+.footer-links a:hover{
+  color: #48916d;
+}
+
+.footer .trademark {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding: 2rem 0 3rem;
+}
+
+/* ?End of general style */
+
+/* !at media query of 500px */
+
+@media (min-width: 500px) {
+  .showcase h1 {
+    padding-right: 10rem;
+  }
+
+  .did-circuit-looks-abstract {
+    height: 40rem;
+  }
+
+  .did-circuit-looks-abstract-btn {
+    padding: 1rem 2rem 1.2rem;
+    max-width: 28rem;
+  }
+}
+
+/* !at media query of 600px */
+
+@media (min-width: 600px) {
+  .showcase h1 {
+    font-size: 1.7rem;
+    padding-right: 16rem;
+  }
+
+  .want-problem-solved {
+    height: 35rem;
+  }
+}
+
+/* !at media query of 700px */
+
+@media (min-width: 700px) {
+  .header {
+    height: 8rem;
+  }
+
+  .brand-logo {
+    width: 3.5rem;
+  }
+  .menu-icon {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .desktop-nav a {
+    padding: 0 1rem 0 0;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #0e1d15;
+    margin-right: 2rem;
+  }
+
+  .desktop-nav a:hover {
+    color: #57ae83;
+  }
+
+  .desktop-nav svg {
+    width: 1rem;
+  }
+
+  .resource-on-desktop {
+    position: relative;
+  }
+
+  .resource-on-desktop a {
+    position: relative;
+    padding: 2.5rem 0;
+  }
+
+  .resource-on-desktop span {
+    display: inline-block;
+    position: absolute;
+
+    top: 35%;
+    padding: 0 0 0 0.4rem;
+  }
+
+  .resource-on-desktop-content {
+    /* display: none; */
+    position: absolute;
+    background-color: #fff;
+    margin-top: 1.5rem;
+    padding: 1rem 0rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.14);
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 300ms ease-in;
+    pointer-events: none;
+  }
+
+  .resource-on-desktop:hover .resource-on-desktop-content {
+    /* display: block; */
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .resource-on-desktop-content a {
+    display: inline-block;
+    padding: 1.2rem 1.5rem;
+    width: 100%;
+    white-space: nowrap;
+  }
+
+  .resource-on-desktop-content a:hover {
+    background-color: #bde9d3;
+    color: #48916d;
+  }
+
+  .desktop-nav .toolbox {
+    background-color: #66cc99;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem 1rem 0.7rem;
+    margin: 0 2.2rem 0 2rem;
+  }
+
+  .desktop-nav .toolbox:hover {
+    background-color: #48916d;
+    color: #fff;
+  }
+
+  .showcase {
+    height: 45rem;
+  }
+
+  .showcase h2 {
+    font-size: 3.75rem;
+  }
+
+  .showcase h1 {
+    font-size: 1.8rem;
+    padding-right: 18rem;
+  }
+
+  .resource {
+    height: 45rem;
+    padding: 4rem 0 5rem;
+  }
+
+  .resource h2 {
+    color: #3381ff;
+    font-size: 3.7rem;
+    font-weight: 700;
+  }
+
+  .resource h5 {
+    font-size: 1.7rem;
+    padding: 1.5rem 5rem 0 0;
+  }
+
+  .resource-btn {
+    width: 22rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+
+  .want-problem-solved h4 {
+    font-size: 1.5rem;
+    padding: 1rem 6rem 0;
+  }
+
+  .want-problem-solved svg {
+    width: 6rem;
+  }
+
+  .did-circuit-looks-abstract {
+    padding: 4rem 3rem 5rem 2.4rem;
+    height: 34rem;
+  }
+
+  .did-circuit-looks-abstract-btn {
+    padding: 1rem 2rem 1.2rem;
+    max-width: 25rem;
+  }
+}
