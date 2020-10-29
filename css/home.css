@@ -145,6 +145,12 @@ a {
   padding: 0 24px;
 }
 
+::selection{
+  background-color: #66cc99;
+  color: #fff;
+}
+
+
 /* ? Global declaration ends*/
 
 .header_container {
@@ -286,7 +292,7 @@ a {
 }
 .showcase-ask {
   margin: 2.5rem 0;
-  display: block;
+  display: inline-block;
   text-decoration: underline;
   text-transform: capitalize;
   padding: 0 1rem;
@@ -439,14 +445,19 @@ a {
 }
 
 .resource h4 {
-  color: #0e1d15;
-  font-size: 1.2rem;
+  color: #fff;
+  background-color: #3381ff;
+  font-size: 1.12rem;
   font-weight: 400;
   text-transform: uppercase;
-  padding: 0 0 1rem 0.2rem;
+  padding: .1rem 0 .3rem 0rem;
+  white-space: nowrap;
+  width: 7.5rem;
+  text-align: center;
+  border-radius: 0.2rem;
 }
 
-.resource h4::after {
+/* .resource h4::after {
   content: "";
   display: inline-block;
   width: 4rem;
@@ -454,12 +465,13 @@ a {
   background-color: #0e1d15;
   margin: 0 0.5rem 0.2rem 0.6rem;
   border-radius: 0.15rem;
-}
+} */
 .resource h2 {
-  color: #3381ff;
+  color: #0e1d15;
   font-size: 3.45rem;
   font-weight: 600;
   line-height: 3.5rem;
+  padding: .5rem 0;
 }
 
 .resource h5 {
@@ -488,7 +500,7 @@ a {
 
 .want-problem-solved {
   height: 50rem;
-  background-color: #66cc99;
+  background-color: #57ae83;
   padding: 2.5rem 0;
 }
 
@@ -578,7 +590,8 @@ a {
 
 footer {
   background-color: #fff;
-  padding: 1rem 0;
+  padding: 3rem 0 1rem;
+  border-top: .18rem solid #e9f7f0;
 }
 
 footer img {
@@ -790,8 +803,10 @@ footer img {
     padding: 4rem 0 5rem;
   }
 
+
+
   .resource h2 {
-    color: #3381ff;
+    /* color: #3381ff; */
     font-size: 3.7rem;
     font-weight: 700;
   }
