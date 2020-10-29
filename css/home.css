@@ -131,8 +131,6 @@ a {
   text-decoration: none;
 }
 
-
-
 .btn {
   padding: 1rem 2rem 1.2rem;
   border-radius: 0.4rem;
@@ -145,11 +143,10 @@ a {
   padding: 0 24px;
 }
 
-::selection{
+::selection {
   background-color: #66cc99;
   color: #fff;
 }
-
 
 /* ? Global declaration ends*/
 
@@ -200,9 +197,7 @@ a {
   align-self: flex-end;
   padding: 2rem 3rem 1rem;
   cursor: pointer;
-  
 }
-
 
 .mobile-nav ul {
   margin: 2rem 0;
@@ -222,9 +217,9 @@ a {
   color: #0e1d15;
 }
 
-.mobile-nav a:hover{
+.mobile-nav a:hover {
   color: #48916d;
-} 
+}
 
 .mobile-nav .toolbox {
   background-color: #66cc99;
@@ -232,11 +227,10 @@ a {
   transition: background-color 250ms ease-in;
 }
 
-.mobile-nav .toolbox:hover{
+.mobile-nav .toolbox:hover {
   background-color: #48916d;
   color: #fff;
 }
-
 
 .nav-active {
   right: 0;
@@ -284,7 +278,6 @@ a {
   background-color: #66cc99;
   color: #fff;
   transition: background-color 250ms ease-in;
-
 }
 
 .showcase-btn:hover {
@@ -302,7 +295,7 @@ a {
   opacity: 0.9;
 }
 
-.showcase-ask:hover{
+.showcase-ask:hover {
   color: #3a7457;
   opacity: 1;
 }
@@ -338,7 +331,6 @@ a {
   border-bottom-right-radius: 7.5rem;
   position: relative;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.07);
-  
 
   z-index: 1;
   transition: box-shadow 300ms ease-in-out;
@@ -346,7 +338,6 @@ a {
 
 .article-box-linked:hover {
   box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.1);
- 
 }
 
 .article-box-linked::after {
@@ -363,9 +354,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 
-  background-color 300ms ease-in-out,
-  box-shadow 250ms ease-in-out;
+  transition: background-color 300ms ease-in-out, box-shadow 250ms ease-in-out;
 }
 
 .article-box-linked:hover::after {
@@ -450,28 +439,18 @@ a {
   font-size: 1.12rem;
   font-weight: 400;
   text-transform: uppercase;
-  padding: .1rem 0 .3rem 0rem;
-  white-space: nowrap;
+  padding: 0.2rem 0 0.3rem 0rem;
   width: 7.5rem;
   text-align: center;
   border-radius: 0.2rem;
 }
 
-/* .resource h4::after {
-  content: "";
-  display: inline-block;
-  width: 4rem;
-  height: 0.2rem;
-  background-color: #0e1d15;
-  margin: 0 0.5rem 0.2rem 0.6rem;
-  border-radius: 0.15rem;
-} */
 .resource h2 {
   color: #0e1d15;
   font-size: 3.45rem;
   font-weight: 600;
   line-height: 3.5rem;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
 .resource h5 {
@@ -493,9 +472,8 @@ a {
   transition: background-color ease 250ms;
 }
 
-.resource-btn:hover{
+.resource-btn:hover {
   background-color: #0e1d15;
-
 }
 
 .want-problem-solved {
@@ -526,7 +504,6 @@ a {
   padding: 1rem 0 0 0;
   color: #fff;
   text-transform: lowercase;
-  
 }
 
 .want-problem-solved svg {
@@ -534,7 +511,7 @@ a {
   transition: width 150ms ease;
 }
 
-.want-problem-solved svg:hover{
+.want-problem-solved svg:hover {
   width: 5.5rem;
 }
 
@@ -544,7 +521,7 @@ a {
   font-size: 1.32rem;
 }
 
-.want-problem-solved .want-to-know-guide:hover{
+.want-problem-solved .want-to-know-guide:hover {
   color: #3a7457;
 }
 
@@ -582,16 +559,15 @@ a {
   transition: background-color ease 250ms;
 }
 
-.did-circuit-looks-abstract-btn:hover{
+.did-circuit-looks-abstract-btn:hover {
   background-color: #fff;
   color: #0e1d15;
-  
 }
 
 footer {
   background-color: #fff;
   padding: 3rem 0 1rem;
-  border-top: .18rem solid #e9f7f0;
+  border-top: 0.18rem solid #e9f7f0;
 }
 
 footer img {
@@ -640,7 +616,7 @@ footer img {
   padding-left: 0.1rem;
 }
 
-.footer-links a:hover{
+.footer-links a:hover {
   color: #48916d;
 }
 
@@ -802,8 +778,6 @@ footer img {
     height: 45rem;
     padding: 4rem 0 5rem;
   }
-
-
 
   .resource h2 {
     /* color: #3381ff; */
