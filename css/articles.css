@@ -1,22 +1,35 @@
-
 .showcase {
-    /* background-color: #cc6699; */
-    height: 28rem;
-    padding: 0 1rem;
-  }
+  /* background-color: #cc6699; */
+  height: 28rem;
+  padding: 0 1rem;
+}
 
-  .showcase h2 {
-    font-size: 3.8rem;
-    
-  }
+.showcase h2 {
+  font-size: 4rem;
+  color: #0e1d15;
+}
 
-  .showcase h1 {
-    font-size: 1.8rem;
-    font-weight: 400;
-    line-height: 2.7rem;
-  }
+.showcase h2::before {
+  content: "more content";
+  /* position: absolute; */
+  display: block;
+  font-size: 1.5rem;
+  background-color: #66cc99;
+  color: #fff;
+  padding: 0.1rem 0 0.4rem 0;
+  width: 14rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  border-radius: .4rem;
+  margin-bottom: .5rem;
+}
+.showcase h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.9rem;
   
-
+}
 
 .article-card-1 img,
 .article-card-2 img,

@@ -164,7 +164,7 @@ a {
   z-index: 1000;
   background-color: #fff;
   box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.06);
-  height: 6.5rem;
+  height: 6.2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -172,7 +172,7 @@ a {
 
 .brand-logo {
   display: inline-block;
-  width: 3rem;
+  width: 18.8rem;
 }
 
 .menu-icon {
@@ -246,7 +246,7 @@ a {
 
 .showcase {
   /* background-color: #cc6699; */
-  height: 48rem;
+  height: 54rem;
   padding: 0 1rem;
 }
 
@@ -259,15 +259,15 @@ a {
 }
 
 .showcase h2 {
-  font-size: 3.5rem;
-  font-weight: 800;
+  font-size: 3.7rem;
+  font-weight: 900;
   color: #66cc99;
 }
 
 .showcase h1 {
-  font-size: 1.7rem;
-  font-weight: 300;
-  line-height: 2.7rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.9rem;
 }
 
 .showcase-btn {
@@ -278,6 +278,8 @@ a {
   background-color: #66cc99;
   color: #fff;
   transition: background-color 250ms ease-in;
+  display: block;
+  margin-top: 1rem;
 }
 
 .showcase-btn:hover {
@@ -328,7 +330,7 @@ a {
   background: #fff;
   /* margin-bottom: 33rem; */
   border-radius: 0.4rem;
-  border-bottom-right-radius: 7.5rem;
+  border-bottom-right-radius: 5rem;
   position: relative;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.07);
 
@@ -436,25 +438,25 @@ a {
 .resource h4 {
   color: #fff;
   background-color: #3381ff;
-  font-size: 1.12rem;
+  font-size: 1.15rem;
   font-weight: 400;
   text-transform: uppercase;
   padding: 0.2rem 0 0.3rem 0rem;
-  width: 7.5rem;
+  width: 8rem;
   text-align: center;
   border-radius: 0.2rem;
 }
 
 .resource h2 {
   color: #0e1d15;
-  font-size: 3.45rem;
+  font-size: 3.5rem;
   font-weight: 600;
   line-height: 3.5rem;
-  padding: 0.5rem 0;
+  padding: 0.8rem 0;
 }
 
 .resource h5 {
-  font-size: 1.61rem;
+  font-size: 1.65rem;
   font-weight: 400;
   color: #0e1d15;
   padding: 1.5rem 0;
@@ -477,7 +479,7 @@ a {
 }
 
 .want-problem-solved {
-  height: 50rem;
+  height: 54rem;
   background-color: #57ae83;
   padding: 2.5rem 0;
 }
@@ -493,12 +495,12 @@ a {
 
 .want-problem-solved h2 {
   color: #fff;
-  font-size: 3rem;
+  font-size: 3.2rem;
   font-weight: 900;
 }
 
 .want-problem-solved h4 {
-  font-size: 1.55rem;
+  font-size: 1.6rem;
   font-weight: 400;
   line-height: 2.5rem;
   padding: 1rem 0 0 0;
@@ -650,8 +652,10 @@ footer img {
 
 @media (min-width: 600px) {
   .showcase h1 {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     padding-right: 16rem;
+
+
   }
 
   .want-problem-solved {
@@ -667,7 +671,8 @@ footer img {
   }
 
   .brand-logo {
-    width: 3.5rem;
+    display: inline-block;
+    width: 19.2rem;
   }
   .menu-icon {
     display: none;
@@ -684,7 +689,7 @@ footer img {
 
   .desktop-nav a {
     padding: 0 1rem 0 0;
-    font-size: 1.6rem;
+    font-size: 1.45rem;
     font-weight: 500;
     text-transform: capitalize;
     color: #0e1d15;
@@ -781,12 +786,12 @@ footer img {
 
   .resource h2 {
     /* color: #3381ff; */
-    font-size: 3.7rem;
+    font-size: 3.8rem;
     font-weight: 700;
   }
 
   .resource h5 {
-    font-size: 1.7rem;
+    font-size: 1.75rem;
     padding: 1.5rem 5rem 0 0;
   }
 
@@ -797,7 +802,7 @@ footer img {
   }
 
   .want-problem-solved h4 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     padding: 1rem 6rem 0;
   }
 
@@ -815,3 +820,6 @@ footer img {
     max-width: 25rem;
   }
 }
+
+
+
