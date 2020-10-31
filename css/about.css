@@ -1,8 +1,19 @@
+:root{
+  --primaryColor: #00c19f;
+  --primaryColorLight:#00d4aeff;
+  --primaryColorDark:#169e83ff;
+  --complementaryColor:#c20629;
+  --darkShade:#00100e;
+  --lightShade:#f0faf8;
+  --lighterShade:#fcfffe;
+}
+
 body {
   background-color: #fff;
 }
 .showcase {
   height: 28rem;
+  
 }
 
 
@@ -14,7 +25,7 @@ body {
 }
 
 .about-section {
-  background: #e9f7f0;
+  background: var(--lightShade);
   /* height: 100rem; */
   padding: 5rem 4rem;
   /* box-shadow:0 2px 6px 0 rgba(0, 0, 0, .12); */
@@ -25,6 +36,7 @@ body {
   text-transform: capitalize;
   font-weight: 600;
   padding: 1.5rem 0;
+  opacity: .9;
 }
 
 .about-section h3 {
@@ -33,37 +45,39 @@ body {
   font-weight: 400;
   position: relative;
   line-height: 3.1rem;
+  opacity: .65;
 }
 
 .about-section h3::before {
   content: "";
-  background-color: #66cc99;
-  height: 1.5rem;
-  width: 1.5rem;
+  background-color: var(--primaryColor);
+  height: 1.2rem;
+  width: 1.2rem;
   border-radius: 100%;
   position: absolute;
   /* margin-right: 2px; */
   /* display: inline-block; */
   left: -28px;
-  top: 28px;
+  top: 31px;
 }
 
 .about-section .if-yes::before {
-  border-radius: 0.4rem;
-  height: 2rem;
-  width: 2rem;
-  content: "*";
+  /* border-radius: 0.4rem; */
+  height: 1.8rem;
+  width: 1.8rem;
+  /* content: "*"; */
   color: #fff;
   font-size: 2rem;
   font-style: normal;
   text-align: center;
-  padding: 0 0.1rem 0.5rem 0.1rem;
+  /* padding: 0 0.1rem 0.5rem 0.1rem; */
   display: block;
+ background-color: #0083c1;
 }
 
 h3.if-yes {
-  font-weight: 600;
-
+  font-weight: 500;
+opacity: .9;
   margin-left: 0.2rem;
 }
 
@@ -71,6 +85,8 @@ h3.if-yes {
   margin: 2rem auto 3rem;
   background-color: #fff;
   /* border: 1px solid #66cc99; */
+  color: var(--darkShade);
+  opacity: .9;
   padding: 2.5rem 2.4rem;
 }
 
@@ -89,7 +105,7 @@ h3.if-yes {
   font-weight: 600;
   padding: 2.5rem 0;
   line-height: 3.5rem;
-  color: #66cc99;
+  color: var(--primaryColor);
 }
 
 .hey-contact-section h4 {
@@ -97,10 +113,14 @@ h3.if-yes {
   font-weight: 400;
   padding: 2rem 0;
   line-height: 3.5rem;
+  color: var(--darkShade);
+  opacity: .9;
 }
 
 .hey-contact-section span {
-  color: #66cc99;
+  /* color: var(--primaryColor); */
   font-size: 2rem;
+  font-weight: 500;
+  font-style: italic;
   /* text-decoration: underline; */
 }

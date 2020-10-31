@@ -1,3 +1,12 @@
+:root{
+  --primaryColor: #00c19f;
+  --primaryColorLight:#00d4aeff;
+  --primaryColorDark:#169e83ff;
+  --complementaryColor:#c20629;
+  --darkShade:#00100e;
+  --lightShade:#f0faf8;
+  --lighterShade:#fcfffe;
+}
 .showcase {
   /* background-color: #cc6699; */
   height: 28rem;
@@ -6,14 +15,15 @@
 
 .showcase h2 {
   font-size: 4rem;
-  color: #0e1d15;
+  color: var(--darkShade);
+  opacity: .9;
 }
 
 .showcase h2::before {
   content: "more content";
   /* position: absolute; */
   display: block;
-  background-color: #66cc99;
+  background-color: var(--primaryColor);
   color: #fff;
   padding: 0.15rem 0 0.4rem 0;
   width: 11rem;
@@ -25,7 +35,7 @@
   margin-bottom: 0.5rem;
 }
 .showcase h1 {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: 400;
   line-height: 2.9rem;
 }
