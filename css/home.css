@@ -108,17 +108,14 @@
 
 /* ! @font face ends */
 
-
-:root{
---primaryColor: #00c19f;
---primaryColorLight:#00d4aeff;
---primaryColorDark:#169e83ff;
---complementaryColor:#c20629;
---darkShade:#00100e;
---lightShade:#f0faf8;
---lighterShade:#fcfffe;
-
-
+:root {
+  --primaryColor: #00c19f;
+  --primaryColorLight: #00d4aeff;
+  --primaryColorDark: #169e83ff;
+  --complementaryColor: #c20629;
+  --darkShade: #00100e;
+  --lightShade: #f0faf8;
+  --lighterShade: #fcfffe;
 }
 
 /* ? Global declaration */
@@ -275,15 +272,13 @@ a {
   font-size: 3.7rem;
   font-weight: 900;
   color: var(--primaryColor);
-  line-height: 5rem;
-  
 }
 
 .showcase h1 {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 2.9rem;
-  opacity: .9;
+  opacity: 0.9;
 }
 
 .showcase-btn {
@@ -328,7 +323,7 @@ a {
   margin: 1.5rem 0;
   text-align: center;
   font-size: 2rem;
-  opacity: .9;
+  opacity: 0.9;
   letter-spacing: 0.6rem;
   font-weight: 400;
 }
@@ -368,8 +363,8 @@ a {
   position: absolute;
   right: 0;
   bottom: 0rem;
-  margin: 0 .3rem .3rem 0;
-  border-radius: .4rem;
+  margin: 0 0.3rem 0.3rem 0;
+  border-radius: 0.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -400,21 +395,21 @@ a {
   margin: 0 1.4rem;
   bottom: 1.8rem;
   background-color: #fff;
-  border-radius: .4rem;
+  border-radius: 0.4rem;
 }
 
 .article-box-content h2 {
   font-size: 2.4rem;
   font-weight: 700;
   text-transform: capitalize;
-  opacity: .9;
+  opacity: 0.9;
 }
 
 .article-box-content h5 {
   font-size: 1.6rem;
   font-weight: 400;
   padding-bottom: 1rem;
-  opacity: .65;
+  opacity: 0.65;
 }
 
 .article-box-content .readmore {
@@ -424,10 +419,9 @@ a {
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--primaryColor);
-  
 }
 
-.article-box-linked:hover .readmore{
+.article-box-linked:hover .readmore {
   color: var(--primaryColorDark);
 }
 
@@ -451,7 +445,7 @@ a {
 
 .more-articles a:hover {
   color: var(--darkShade);
-  opacity: .9;
+  opacity: 0.9;
   background: #fff;
 }
 
@@ -484,7 +478,7 @@ a {
 
 .resource h2 {
   color: #0083c1;
-  opacity: .9;
+  opacity: 0.9;
   font-size: 3.6rem;
   font-weight: 600;
   line-height: 3.5rem;
@@ -494,7 +488,7 @@ a {
 .resource h5 {
   font-size: 1.8rem;
   font-weight: 400;
-  
+
   padding: 1.5rem 0;
   opacity: 0.65;
   line-height: 2.75rem;
@@ -575,7 +569,7 @@ a {
 
 .did-circuit-looks-abstract h2 {
   /* color: #0e1d15; */
-  opacity: .9;
+  opacity: 0.9;
   font-size: 2.7rem;
   font-weight: 800;
 }
@@ -605,11 +599,8 @@ a {
 }
 
 footer {
-  background-color: var(--lightShade);
- 
-  
+  background-color: var(--lighterShade);
   padding: 3rem 0 1rem;
-  /* border-top: 0.2rem solid var(--lightShade); */
 }
 
 footer img {
@@ -655,7 +646,7 @@ footer img {
   font-size: 1.4rem;
   font-weight: 400;
   color: var(--darkShade);
-  opacity: .7;
+  opacity: 0.7;
   padding-left: 0.1rem;
   text-decoration: underline;
 }
@@ -696,8 +687,6 @@ footer img {
   .showcase h1 {
     font-size: 1.8rem;
     padding-right: 16rem;
-
-
   }
 
   .want-problem-solved {
@@ -792,7 +781,7 @@ footer img {
 
   .resource-on-desktop-content a:hover {
     background-color: #e8fffb;
-    
+
     color: var(--primaryColorDark);
   }
 
@@ -863,6 +852,3 @@ footer img {
     max-width: 25rem;
   }
 }
-
-
-
